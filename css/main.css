@@ -12,6 +12,7 @@ body {
 h1, h2 {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 28px;
+    text-align: center;
 }
 
 p {
@@ -27,7 +28,7 @@ p {
 
 #column-con {
     display: flex;
-    flex-direction: row;
+     flex-direction: row;
 }
 
 #box1 {
@@ -47,7 +48,7 @@ p {
     width: 25%;
     height: 300px;
 }
-
+    
 #box4 {
     background-color: brown;
     width: 25%;
@@ -64,13 +65,12 @@ p {
 
     #box1 {
         background-color: pink;
-        width: 50%;
+        width: 100%;
     }
 
     #box2 {
         background-color: red;
-        
-        width: 50%;
+        width: 100%;
     }
 
     #box3 {
